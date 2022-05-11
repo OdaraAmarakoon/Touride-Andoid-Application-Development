@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btn_register"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/Login"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="-248dp"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="351dp"
+        android:layout_height="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="551dp"
+        android:text="Welcome To "
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="50dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="514dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="171dp"
+        android:text="Login"
+        tools:ignore="DuplicateClickableBoundsCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Login"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="91dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_alignStart="@+id/email"
+        android:layout_alignEnd="@+id/email"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="177dp"
+        android:layout_height="94dp"
+        android:layout_above="@+id/Login"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="73dp"
+        app:srcCompat="@drawable/touride__1_" />
+
+    <TextView
+        android:id="@+id/btn_signup"
+        android:layout_width="213dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="120dp"
+        android:text="New Here >> Register"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="313dp"
+        android:layout_marginBottom="286dp"
+        android:text="Email"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="313dp"
+        android:layout_marginBottom="244dp"
+        android:text="Password"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

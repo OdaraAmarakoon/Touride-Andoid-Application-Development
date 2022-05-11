@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".A">
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_width="317dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="76dp"
+        android:text="Welcome To"
+        android:textColor="@color/material_dynamic_primary30"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/touride__1_"
+        android:contentDescription="TODO" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageView11"
+        >
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="122dp"
+            android:layout_height="113dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="380dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/tour" />
+
+        <TextView
+            android:id="@+id/btn_Guide"
+            android:layout_width="94dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/imageView8"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="-380dp"
+            android:text="GUIDE"
+            android:textColor="@color/material_dynamic_primary40"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.571" />
+
+        <ImageView
+            android:id="@+id/imgIssue"
+            android:layout_width="113dp"
+            android:layout_height="127dp"
+            android:layout_alignStart="@+id/imageView8"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/exclamation" />
+
+        <TextView
+            android:id="@+id/btn_Issues"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgIssue"
+
+            android:layout_alignStart="@+id/btn_Guide"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginEnd="72dp"
+            android:text="ISSUES"
+            android:textColor="@color/material_dynamic_primary30"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="113dp"
+            android:layout_height="127dp"
+            android:layout_below="@+id/btn_Guide"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/user" />
+
+        <TextView
+            android:id="@+id/btn_Profile"
+            android:layout_width="176dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="104dp"
+            android:layout_below="@+id/imageView9"
+            android:text="VIEW PROFILE"
+            android:textColor="@color/material_dynamic_primary30"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="109dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="190dp"
+            android:layout_alignStart="@+id/imageView9"
+            android:layout_below="@+id/btn_Issues"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/resource_switch" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="128dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="112dp"
+            android:text="LOGOUT"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="200dp"
+            android:layout_alignStart="@+id/btn_Profile"
+            android:layout_below="@+id/imageView10"
+            android:textColor="@color/material_dynamic_primary30"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

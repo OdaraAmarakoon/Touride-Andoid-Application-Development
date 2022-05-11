@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Touride/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1965" />
+        <entry key="..\:/Touride/app/src/main/res/drawable/switch _one_background.xml" value="0.1965" />
+        <entry key="..\:/Touride/app/src/main/res/layout/activity_a.xml" value="0.25" />
+        <entry key="..\:/Touride/app/src/main/res/layout/activity_admin_home.xml" value="0.22" />
+        <entry key="..\:/Touride/app/src/main/res/layout/activity_booking_guides.xml" value="0.25" />
+        <entry key="..\:/Touride/app/src/main/res/layout/activity_guide_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Touride/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Touride/app/src/main/res/layout/activity_home_user.xml" value="0.20416666666666666" />
+        <entry key="..\:/Touride/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Touride/app/src/main/res/layout/activity_main.xml" value="0.14" />
+        <entry key="..\:/Touride/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Touride/app/src/main/res/layout/activity_user_home.xml" value="0.22" />
+        <entry key="..\:/Touride/app/src/main/res/layout/activity_user_profile.xml" value="0.25" />
+        <entry key="..\:/Touride/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1965" />
+        <entry key="..\:/Touride/app/src/main/res/mipmap-anydpi-v26/switch _one.xml" value="0.1965" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

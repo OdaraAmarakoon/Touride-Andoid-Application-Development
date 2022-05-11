@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "589928475436",
+    "project_id": "touride-2fbd3",
+    "storage_bucket": "touride-2fbd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589928475436:android:988f295bc736e7017f9a89",
+        "android_client_info": {
+          "package_name": "com.example1.openapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589928475436-euimaba8t9mkr2c2drnui45sdie1c36o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6w6ATj6t8Fi98QYIxBLyFEYdLDbIxK-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589928475436-euimaba8t9mkr2c2drnui45sdie1c36o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
